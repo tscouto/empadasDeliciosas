@@ -1,0 +1,186 @@
+
+
+.nav-orange {
+    background-color: rgb(255, 183, 77);
+    height: 100px;
+
+}
+
+
+.text-cabecalho {
+    color: rgba(255, 143, 0);
+    font-weight: bold;
+}
+
+.text-orange{
+    color: rgba(255, 143, 0) !important;
+}
+
+.card-color{
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+}
+
+.body{
+    background-color: rgb(243, 243, 243);
+    border: none;
+}
+
+div.card-body.card-color {
+    padding: 40px 30px 40px 30px;
+}
+.card{
+    border: none;
+}
+
+#card{
+    margin-bottom: 25%;
+}
+
+
+
+
+
+
+
+/* pagina sobre */
+section.team {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.values ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.map iframe {
+    width: 100%;
+    height: 450px;
+    border: 0;
+    margin-top: 20px;
+}
+
+
+
+/* Pagina cardarpio */
+
+.text-align{
+    text-align: center;
+}
+
+
+
+.img-produto {
+    display: block;
+    margin: 0 auto;
+    width: 240px;
+}
+
+.table-orange * {
+    color: white !important;
+    background: orange !important;
+}
+
+.table-orange th,
+.table-arange td {
+    border: 1px solid rgb(243, 243, 243) !important;
+}
+
+button.large-button {
+    padding-inline: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div.card-body.card-color.form-padding{
+    padding: 100px;
+}
+
+.card{
+     margin-top: 30px;
+     margin-bottom: 60%;
+}
+
+#card-simples {
+    margin-bottom: 30px;
+}
+
+h3 {
+    padding-bottom: 15px;
+}
+
+
+
+
+
+/* footer */
+.footer {
+    background-color: #ff8c00;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer-section h2 {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        text-align: center;
+    }
+}
