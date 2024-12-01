@@ -2,6 +2,17 @@
 
 Este projeto é um site simples criado para a venda de empadas, apresentando o cardápio, informações sobre a empresa e um formulário de contato. O design utiliza o framework Bootstrap e é otimizado para visualização em dispositivos móveis.
 
+## 🚀 Tecnologias Utilizadas
+
+O site foi desenvolvido com as seguintes tecnologias:
+
+- **HTML5**: Estruturação da página, garantindo a semântica e acessibilidade.
+- **CSS3**: Estilização visual do site, utilizando o modelo de layout responsivo para diferentes dispositivos.
+- **Bootstrap**: Framework CSS utilizado para otimizar o design responsivo e garantir que o site fique bem em dispositivos móveis e desktops.
+- **JavaScript**: Utilizado para interatividade, como por exemplo, no envio de dados no formulário de contato.
+- **Google Maps API**: Para a integração do mapa interativo na página de "Contato", permitindo que os usuários encontrem a localização da empresa de maneira fácil.
+
+
 ## 📁 Estrutura do Projeto
 
 O projeto é dividido em várias telas com funcionalidades específicas:
